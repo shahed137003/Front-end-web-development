@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2</title>
+</head>
+<body>
+    <label for="bands">Bands :</label>
+    
+    <select id="bands" >
+        <optgroup label="Select the group" >
+        <option value="beatles" >
+            beatles
+        </option value="stones">
+        <option>
+            stones
+        </option value="genesis">
+        <option>
+            genesis
+        </option>
+        <option value="eagles">
+            eagles
+        </option>
+
+        </optgroup>
+    </select>
+    <label for="Artist" name="beatles">Artist :</label>
+    <select id="Artist" name="beatles" onchange="changeWebsite(this.name,this.value)">
+    </select>
+    <script src="miniTask2.js"></script>
+</body>
+</html>

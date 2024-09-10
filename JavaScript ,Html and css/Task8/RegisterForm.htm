@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Task</title>
+</head>
+<body style="background-color:antiquewhite;">
+<form action="Profile.htm">
+    <div>
+        <label for="name">Enter your name: </label>
+        <input type="text"  name="use name" id="name">
+    </div>
+
+    <div>
+        <label for="age">Enter your age: </label>
+        <input type="text"  name="use age" id="age">
+    </div>
+
+    <div>
+        <label for="gender">select your gender </label>
+        <br>
+        <div>
+            <input type="radio" name="gender" id="male" value="Cookie/1.jpg">
+        <label for="male">
+            <img src="Cookie/1.jpg">
+        </label>
+        </div>
+        <div>
+            <input type="radio" name="gender" id="female" value="Cookie/2.jpg">
+        <label for="female">
+            <img src="Cookie/2.jpg">
+        </label>
+        </div>
+        
+    </div>
+
+    <div>
+    <label for="color">Select your favorite color : </label>
+    <select name="color" id="color">
+        <option>red</option>
+        <option>green</option>
+        <option>blue</option>
+    </select>
+</div>
+
+<br>
+
+<input type="submit" value="register" onclick="GotProfile()">
+</form>
+    
+    <script src="Liberary.js"></script>
+    <script src="CookiesDes.js"></script>
+</body>
+</html>
